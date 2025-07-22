@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yokohama Label and Printing co,. ltd.</title>
+    <script src="https://kit.fontawesome.com/f9adc0cab2.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
     <header>
-        <div>
+        <div class="flex justify-around items-center mt-2">
             <div>
                 <img src="images/logo2.png" alt="Yokohama Logo">
             </div>
-            <div>
-                <input type="search">
+            <div class="relative">
+                <input class="w-xs bg-stone-100 p-2 border border-blue-950 rounded-4xl" type="search" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass absolute top-3 right-4"></i>
             </div>
             <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Blog</li>
+                <ul class="flex gap-4">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Blog</a></li>
                 </ul>
             </div>
         </div>
